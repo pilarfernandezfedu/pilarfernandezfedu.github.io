@@ -335,10 +335,14 @@ header .fa-bars {
 }
 
 .visualization1 .row .content p {
-    font-size: 1.6rem;
-    color:  #fff;
+    font-size: 1.5rem;
+    color:  #eee;
+    text-transform: none;
     padding: 1rem 0;
-}
+    justify-content: none;
+    align-items: none;
+    text-align: none;
+ }
 
 .visualization1 .row .content button {
     height: 5rem;
@@ -354,6 +358,209 @@ header .fa-bars {
 }
 
 .visualization1 .row .content button:hover {
+    background: none;
+    border: .2rem solid;
+    color: #f9580e;
+}
+
+
+.visualization2 {
+    background: #171717;
+}
+
+.visualization2 h3 {
+    color: #eee;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+
+.visualization2 .title {
+    margin-bottom: 3rem;
+}
+
+.visualization2 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.visualization2 .row .content {
+    padding-left: 5rem;
+    margin: 5rem 0;
+}
+
+.visualization2 .row .content h3 {
+    font-size: 3rem;
+    color: #f9580e;
+}
+
+.visualization2 .row .content p {
+    font-size: 1.5rem;
+    color:  #eee;
+    text-transform: none;
+    padding: 1rem 0;
+    justify-content: none;
+    align-items: none;
+    text-align: none;
+ }
+
+.visualization2 .row .content button {
+    height: 5rem;
+    width: 17rem;
+    background: #f9580e;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+    margin-top: 2rem;
+}
+
+.visualization2 .row .content button:hover {
+    background: none;
+    border: .2rem solid;
+    color: #f9580e;
+}
+
+
+.visualization3 {
+    background: #171717;
+}
+
+.visualization3 h3 {
+    color: #eee;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+
+.visualization3 .title {
+    margin-bottom: 3rem;
+}
+
+.visualization3 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.visualization3 .row .content {
+    padding-left: 5rem;
+    margin: 5rem 0;
+}
+
+.visualization3 .row .content h3 {
+    font-size: 3rem;
+    color: #f9580e;
+}
+
+.visualization3 .row .content p {
+    font-size: 1.5rem;
+    color:  #eee;
+    text-transform: none;
+    padding: 1rem 0;
+    justify-content: none;
+    align-items: none;
+    text-align: none;
+ }
+
+.visualization3 .row .content button {
+    height: 5rem;
+    width: 17rem;
+    background: #f9580e;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+    margin-top: 2rem;
+}
+
+.visualization3 .row .content button:hover {
+    background: none;
+    border: .2rem solid;
+    color: #f9580e;
+}
+
+
+.more {
+    background: #171717;
+}
+
+.more h3 {
+    color: #eee;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.more ul {
+    color: #eee;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.more ul li {
+    color: #eee;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.more .title {
+    margin-bottom: 3rem;
+}
+
+.more .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.more .row .content {
+    padding-left: 5rem;
+    margin: 5rem 0;
+}
+
+.more .row .content h3 {
+    font-size: 3rem;
+    color: #f9580e;
+}
+
+.more .row .content p {
+    font-size: 1.5rem;
+    color:  #eee;
+    text-transform: none;
+    padding: 1rem 0;
+    justify-content: none;
+    align-items: none;
+    text-align: none;
+ }
+
+.more .row .content button {
+    height: 5rem;
+    width: 17rem;
+    background: #f9580e;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+    margin-top: 2rem;
+}
+
+.more .row .content button:hover {
     background: none;
     border: .2rem solid;
     color: #f9580e;
