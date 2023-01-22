@@ -18,57 +18,47 @@
                 <li><a href="#course">Cursos</a></li>
                 <li><a href="#review">Testimoniales</a></li>
                 <li><a href="#contact">Contacto</a></li>
-              </ul>
-              <div class="fas fa-bars"></div>
+            </ul>
+            <div class="fas fa-bars"></div>
         </nav>
     </header>
 
 
     <section class="home" id="home">
         <div class="content">
-            <h1>Inicio de la página</h1>
-            <p>Información a añadir a la página</p>
-            <a HREF="#"><button>Descubre más</button></a>
+            <h1>Mejores universidades del mundo</h1>
+            <p>Análisis de la información obtenida por QS World University Rankings 2022</p>
+            <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2023"><button>Ranking 2023</button></a>
         </div>
     </section>
 
 
-    <section class="product" id="product">
-        <div class="box-container">
-            <div class="box">
-                <i class="fab fa-angular"></i>
-                <h3>Más información</h3>
-                <p>Añadimos la información que queramos</p>
-            </div>
-        </div>
 
-        <div class="box-container">
-            <div class="box">
-                <i class="fab fa-apple"></i>
-                <h3>Más información</h3>
-                <p>Añadimos la información que queramos</p>
-            </div>
-        </div>
-
-        <div class="box-container">
-            <div class="box">
-                <i class="fab fa-android"></i>
-                <h3>Más información</h3>
-                <p>Añadimos la información que queramos</p>
-            </div>
-        </div>
-
-        <a href="#"><button>Descubre más 2</button></a>
-       
-    </section>
 
 
     <section class="about" id="about">
-        <h1 class="heading">Nosotros</h1>
-        <h3>Datos que queramos añadir nuevamente</h3>
+        <h1 class="heading">¿Qué es World University Rankings?</h1>
+        <h3>Todos los años QS (Quacquarelli Symonds) realiza una clasificación mundial de universidades basada en 8 indicadores diferentes. Este año el estudio se centra en unas 1500 universidades de diferentes localizaciones. El objetivo de este estudio es poder ayudar a los estudiantes a valorar las diferentes opciones de estudios que se les presentan en el extranjero utilizando para ello un ranking basado en los siguientes criterios:</h3>
+        <br>
+        <ul>
+            <li type="circle">- REPUTACIÓN ACADÉMICA: Supone el 40% de la puntuación total, basada en la puntuación de 130.000 expertos de educación universitaria.</li>
+            <li type="circle">- REPUTACIÓN DE LOS EMPLEADOS: Nos indica como las instituciones preparan a los estudiantes de la manera más innovadora y competente.</li>
+            <li type="circle">- RATIO FACULTAD/ESTUDIANTE: Este indicador reconoce que un alto número de académicos por estudiante reduce la mala enseñanza y crea una mayor atención a los estudiantes.</li>
+            <li type="circle">- PUBLICACIONES POR UNIVERSIDAD: Mide el número de publicaciones generadas por una universidad en los últimos 5 años.</li>
+            <li type="circle">- RATIO DE ESTUDIANTES EXTRANJEROS & RATIO DE PROFESORES EXTRANJEROS: Puntua la capacidad de atraer talento y estudiantes extranjeros.</li>
+        </ul>
+    </section>
+
+
+    <section class="visualization1" id="visualization1">
+        <h1 class="heading">Como interpretar los datos</h1>
+        <h3>Una vez que tenemos los datos la pregunta más interesante es ver cómo podemos interpretarlos de una manera visual que nos aporte información a primera vista. Disponer de la información de los datos tal y cómo nos la facilita QS está bien pero puede ser bastante farragoso de interpretar, tenemos que mirar una por una las universidades, los países, cuál es el ranking de cada una de ellas...</h3>
+        <br>
+        <h3>Una manera de ayudar a los estudiantes a interpretar esta información es mediante un mapa que nos permita interpretar de un simple vistazo que países poseen las mejores universidades. Para poder mostrar esta información hemos elegido un mapa de burbujas que nos permite ver de un simple vistazo que países son los que poseen mejor puntuación en sus universidades, cuanto mayor sea el tamaño de la burbuja más universidades con mejor puntuación. A continuación mostramos el mapa que se corresponde con el ranking del 2023.</h3>
+¡
         <div class="row">
             <div class="image">
-                <img src="images/about.png" alt="">
+                <img src="images/Ranking_2023.png" alt="">
             </div>
             <div class="content">
                 <h3>Descripción del mapa</h3>
@@ -77,6 +67,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section class="course" id="course">
         <h1 class="heading">Cursos</h1>
@@ -120,6 +112,30 @@
         </div>
     </section>
 
+    <section class="product" id="product">
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3>Más información</h3>
+                <p>Añadimos la información que queramos 1</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>Más información 2</h3>
+                <p>Añadimos la información que queramos 2</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <h3>Más información 3</h3>
+                <p>Añadimos la información que queramos 3</p>
+            </div>
+        </div>
+        <a href="#"><button>Descubre todavía más</button></a>
+    </section>
+    
+    
     <section class="review" id="review">
         <h1 class="heading">Testimoniales</h1>
         <h3 class="Title">Datos de testimoniales</h3>
@@ -177,7 +193,7 @@
                     <input type="text" placeholder="Nombre">
                     <input type="email" placeholder="Correo">
                     <input type="number" placeholder="Telefono">
-                    <textarea cols="15" rows="5"></textarea placeholder="Mensaje">
+                    <textarea cols="15" rows="5" placeholder="Mensaje"></textarea>
                     <input type="submit" value="Enviar">
                 </form>        
             </div>
@@ -195,5 +211,33 @@
         </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.fa-bars').click(function() {
+                $(this).toggleClass('fa-times');
+                $('.navbar').toggleClass('nav-toggle');
+            });
+
+            $(window).on('scroll load', function() {
+                $('.fa-bars').removeClass('fa-times');
+                $('.navbar').removeClass('nav-toggle');
+
+                $('section').each(function(){
+                    var id = $(this).attr('id');
+                    var height = $(this).height();
+                    var offset = $(this).offset();
+                    var top = $(this).scrolltop();
+
+                    if (top>=offset && top<offset + height) {
+                        $('.navbar ul li a').removeClass('active');
+                        $('.navbar').find('[href="#'+id+'"]').addClass('active');
+                    }
+
+                });
+            });
+        });
+    </script>
 </body>
 </html>
